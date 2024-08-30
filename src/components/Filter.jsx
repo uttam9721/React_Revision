@@ -10,7 +10,7 @@ const Filter = () => {
 
   // Filtering items based on category 'mobile'
   const filterData = items.filter((item) => item.category === 'mobile');
-
+//  const item=items.filter((item)=>item.category)
   return (
     <>
       <div>
@@ -23,5 +23,4 @@ const Filter = () => {
     </>
   );
 };
-
 export default Filter;

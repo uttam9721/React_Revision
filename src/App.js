@@ -6,6 +6,7 @@ import Events from './components/Events';
 import Counter from './components/Counter';
 import Map from './components/Map';
 import Filter from './components/Filter';
+import Movie from './movie/Movie';
 
 function App() {
   return (
@@ -20,8 +21,10 @@ function App() {
 {/* <Laptop/> */}
 {/* <Events/> */}
 {/* <Counter /> */}
-<Map />
+{/* <Map /> */}
 {/* <Filter /> */}
+<Movie />
+
 
 
 
