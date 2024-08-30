@@ -1,24 +1,42 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Product from './components/Product';
+import Laptop from './components/Laptop';
+import Events from './components/Events';
+import Counter from './components/Counter';
+import Map from './components/Map';
+import Filter from './components/Filter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+
+<>
+{/* <Product name="uttam" age="22" salary="70k" /> */}
+{/* <Product name="uttam" age="22" salary="70k" /> */}
+{/* <Product name="uttam" age="22" salary="70k" /> */}
+
+{/* <Laptop brandName="Asus" model="vivobook" price="57000" /> */}
+{/* <Laptop/> */}
+{/* <Events/> */}
+{/* <Counter /> */}
+<Map />
+{/* <Filter /> */}
+
+
+
+
+
+
+
+
+
+
+</>
+
+
+
+   </div>
   );
 }
 
