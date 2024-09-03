@@ -2,13 +2,35 @@ body {
  background-color: #000;
  color: #fff;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 .hoverr{
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 350px;
+  width: 360px;
   height: 350px;
   overflow: hidden;
   transition: 0.7 ease;
+  /* background-color: gray; */
+  /* margin: 10px; */
 }
+.hoverr img{
+  width: 100%;
+  height: 100%;
+  transition: transform 0.7 ease;
+  transform: translatez(0);
+}
+/* .uttam h5,p{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+} */
+ .hoverr:hover img{
+  transform: scale(1.1) translate(50px);
+ }
+ button{
+  font-weight: bold !important;
+ }
