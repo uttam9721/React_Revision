@@ -7,8 +7,10 @@ const FormHandling = () => {
 
     const handleSubmit =(e)=>{
         e.preventDefault();
-        alert("your form has been submited"+name+email+password)
-        
+        console.log("your form has been submited"+name+email+password)
+        setName('');
+        setEmail('');
+        setPassword('');
     }
   return (
     <div>
