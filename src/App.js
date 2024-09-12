@@ -1,5 +1,8 @@
 import './App.css';
+import {BrowserRouter as Router, Routes,Route} from "react-router-dom"
+import Course_detail from './pages/Course_detail';
 import Home from './pages/Home';
+import Product from './pages/Product';
 
 function App() {
   return (
@@ -15,7 +18,13 @@ function App() {
       {/* <Movie /> */}
       {/* <FormHandling/> */}
       {/* <Meal/> */}
-      <Home />
+      {/* <Home /> */}
+      <Router>
+        <Routes>
+          <Route path="/Product" element={<Product/>}/>
+          <Route path="/course/:id" element={<Course_detail/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }
